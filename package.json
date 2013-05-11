@@ -1,0 +1,41 @@
+{
+  "name": "tiny-time",
+  "description": "DSL for creating Dates",
+  "version": "0.0.1",
+  "main": "index.js",
+  "homepage": "http://github.com/jsantell/tiny-time",
+  "author": {
+    "name": "Jordan Santell",
+    "url": "http://jsantell.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jsantell/tiny-time"
+  },
+  "bugs": {
+    "url": "https://github.com/jsantell/tiny-time/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test" : "./node_modules/.bin/mocha --reporter spec --ui bdd"
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "chai": "latest"
+  },
+  "keywords": [
+    "time",
+    "date",
+    "DSL",
+    "timestamp",
+    "tiny"
+  ]
+}
